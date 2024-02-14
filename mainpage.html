@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel = "stylesheet" href = "mainpage.css">
+    <link rel = "stylesheet" href = "mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <nav id = "nav-bar" class = "hiddennav">
+        <div class = "logo">Dhitan</div>
+        <div>
+            <ul class = "nav">
+                <li><a href= "#about-me">About Me</a></li>
+                <li><a href = "#my-hobbies">My Hobbies</a></li>
+                <li><a href = "#portfolio">Portfolio</a></li>
+                <li><a href = "#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id = "responsive">
+        <div class = "logo">Dhitan</div>
+        <div class = "hamburg">
+            <div class = "hamburg-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class = "links">
+                <li><a href= "#about-me" onclick="toggleMenu()">About Me</a></li>
+                <li><a href = "#my-hobbies" onclick="toggleMenu()">My Hobbies</a></li>
+                <li><a href = "#portfolio" onclick="toggleMenu()">Portfolio</a></li>
+                <li><a href = "#contact" onclick="toggleMenu()">Contact Me</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id = "opening-page" class = "hidden">
+        <div class = "texts">
+            <h2>Hi, i'm</h2>
+            <h1>DHITAN</h1>
+            <h2>Computer Science Student</h2>
+            <h2>Welcome to my Website :D</h2>
+            <div class = "opening-icons">
+                <a href = "https://www.instagram.com/dhitandhitan/" target = "_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href = "https://github.com/meliocool" target = "_blank"><i class="fa-brands fa-square-github"></i></a>
+                <a href = "https://www.linkedin.com/in/muhammad-dhitan-a1365b272/" target = "_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class = "image-container">
+            <img src = "assets/Untitled_design__4_-removebg.png">
+        </div>
+    </section>
+    <section id = "about-me" class = "hidden">
+        <div class = "aboutme">
+            <h1>About Me</h1>
+        </div>
+        <div class = "about-me-container">
+            <div class = "image-container2">
+                <img src = "assets/Untitled_design__5_-removebg-preview (1).png">
+            </div>
+            <div class = "text-and-steplist">
+                <div class = "right-side">
+                    <div class = "icons">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-php"></i>
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class = "about-me-texts">
+                        <h3>Hi!, i'm Dhitan, a human being currently studying Computer Science
+                        at Bina Nusantara University. In the pursuit of my dream to become a 
+                        Software Engineer, i am committed to mastering multiple Programming language
+                        and tools such as shown above. I really hope we could work together and create wonderful
+                        things. Listed below are my Education background, feel free to have a look :D
+                        </h3>
+                    </div>
+                </div>
+                <div class = "steplist">
+                    <ol class = "steplist">
+                        <li>SD Pancoran 01<br>2011 - 2017</li>
+                        <li>SMP 182 Jakarta<br>2017 - 2020</li>
+                        <li>SMA Perguruan Cikini<br>2020 - 2023</li>
+                        <li>Binus University<br>2023 - Present</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id = "my-hobbies" class = "hidden">
+        <div class = "myhobbies">
+            <h1>My Hobbies</h1>
+        </div>
+        <div class = "hobby-container">
+            <div class = "hidden kpop">
+                <h2>K-POP</h2>
+                <img src = "assets/TWICEScientist-scaled.jpg">
+                <p> K-POP is one of my core interest, i listen to it a lot and i also take inspirations from their 
+                    group or agency's websites and apps. One of my ultimate group is TWICE and my bias is Yoo Jeongyeon :D.
+                    A few iconic TWICE songs that i listen to while making this website are "UP NO MORE" and their newest release
+                    "I GOT YOU".
+                </p>
+            </div>
+            <div class = "hidden videogame">
+                <h2>VIDEO GAMES</h2>
+                <img src = "assets/elden-ring-ranni-elden-ring-hd-wallpaper-preview.jpg">
+                <p> Ah yes, the mainstream hobby of 90% of Computer Science students, including me :D. I enjoy a few 
+                    Single-Player story games namely "The Witcher 3: Wild Hunt" and ALL games developed by
+                    FromSoftware. I'm also taking into consideration my interest in video games could potentially lead me to a game developing career.
+                </p>    
+            </div>
+            <div class = "hidden anime">
+                <h2>ANIME</h2>
+                <img src = "assets/ichigoat2.jpg">
+                <p> An even more mainstream hobby of Computer Science students. You probably guessed from my appearance that i am a weeb myself. 
+                    Some anime that i have watched includes Bleach, Evangelion, and some Romance anime that i can talk about for hours. Fun fact, i never went to 
+                    any weeb events, and i take a huge pride in that :D.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id = "portfolio" class = "hidden">
+        <div class = "portfolio-title">
+            <h1>Portfolio</h1>
+        </div>
+        <div class = "portfolio-container">
+            <div class = "hidden project1">
+                <h2>Personal Website</h2>
+                <img src = "assets/Screenshot (674).png">
+                <p> My very own personal website made for BNCC Assignment :D
+                </p>
+                <button class = "btn1" onclick="location.href='github.com/'">
+                GitHub
+                </button>
+            </div>
+            <div class = "hidden project2">
+                <h2>Game review website</h2>
+                <img src = "assets/Screenshot (676).png">
+                <p> Final project for Matkul Program Design Methods that i developed with my friend Diaz.
+                </p>
+                <button class = "btn1" onclick="location.href='github.com/'">
+                    GitHub
+                </button>    
+            </div>
+            <div class = "hidden project3">
+                <h2>Random Number Generator</h2>
+                <img src = "assets/Screenshot (675).png">
+                <p> Just a silly project that i did to learn Math.random in JavaScript :D
+                </p>
+                <button class = "btn1" onclick="location.href='github.com/'">
+                    GitHub
+                </button>
+            </div>
+        </div>
+        <div class = "portfolio-container">
+            <div class = "hidden project4">
+                <h2>Personal Website in HighSchool</h2>
+                <img src = "assets/Screenshot (677).png">
+                <p> My very own personal website when i was in High School (I lost the images file sadly)
+                </p>
+                <button class = "btn1" onclick="location.href='github.com/'">
+                GitHub
+                </button>
+            </div>
+            <div class = "hidden project5">
+                <h2>Cool Animated Landing Page</h2>
+                <img src = "assets/Screenshot (678).png">
+                <p> Cool Animation that i watched on YouTube, this was also made when i was in High School :D
+                </p>
+                <button class = "btn1" onclick="location.href='github.com/'">
+                    GitHub
+                </button>    
+            </div>
+        </div>
+    </section>
+    <section id = "contact" class = "hidden">
+        <div class = "contact-container">
+            <form action ="" class = "contact-left">
+                <div class = "contact-left-title">
+                    <h1>Contact Me!</h1>
+                    <hr>
+                </div>
+                <input type = "text" placeholder = "Enter your Name" class = "contact-inputs" required>
+                <input type = "email" placeholder = "Enter your Email" class = "contact-inputs" required>
+                <input type = "text" placeholder = "Enter your LinkedIn" class = "contact-inputs" required>
+                <textarea placeholder="Feel free to leave a Comment :D" class = "contact-inputs" required></textarea>
+                <button type = "submit">Submit</button>
+            </form>
+            <div class = "contact-right">
+                <img src = "assets/Png.png">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &#169; 2024 Muhammad Dhitan. All Rights Reserved.</p>
+    </footer>
+    <script src = "mainpage.js"></script>
+</body>
+</html>
