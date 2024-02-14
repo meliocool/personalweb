@@ -205,7 +205,7 @@ section {
     margin-left: -10px;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    background: url(back.png);
+    background: url(assets/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 30s linear infinite;
@@ -263,7 +263,7 @@ section {
     justify-content: center;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    background: url(back.png);
+    background: url(assets/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 30s linear infinite;
@@ -412,7 +412,7 @@ section {
     justify-content: center;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    background: url(back.png);
+    background: url(assets/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 30s linear infinite;
@@ -540,7 +540,7 @@ section {
     justify-content: center;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    background: url(back.png);
+    background: url(assets/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 30s linear infinite;
