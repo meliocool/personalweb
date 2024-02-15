@@ -207,6 +207,7 @@ section {
     -webkit-text-stroke: 1px #fff;
     background: url(assets/back.png);
     -webkit-background-clip: text;
+    background-clip: text;
     background-position: 0 0;
     animation: back 30s linear infinite;
 }
@@ -265,6 +266,7 @@ section {
     -webkit-text-stroke: 1px #fff;
     background: url(assets/back.png);
     -webkit-background-clip: text;
+    background-clip: text;
     background-position: 0 0;
     animation: back 30s linear infinite;
 }
@@ -414,6 +416,7 @@ section {
     -webkit-text-stroke: 1px #fff;
     background: url(assets/back.png);
     -webkit-background-clip: text;
+    background-clip: text;
     background-position: 0 0;
     animation: back 30s linear infinite;
 }
@@ -542,6 +545,7 @@ section {
     -webkit-text-stroke: 1px #fff;
     background: url(assets/back.png);
     -webkit-background-clip: text;
+    background-clip: text;
     background-position: 0 0;
     animation: back 30s linear infinite;
 }
