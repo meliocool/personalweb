@@ -4,16 +4,426 @@
     }
     #responsive {
         display: flex;
-        align-items: center;
-        padding: 0 20px;
     }
-    .logo {
-        margin-right: auto; 
+    #responsive .logo {
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+    }
+    #responsive .hamburg {
+        margin-right: 1rem;
+    }
+    section {
+        margin: 0 5%;
+        height: fit-content;
+    }
+    #opening-page img {
+        display: none;
+    }
+    #opening-page {
+        display: block;
+        width: 500px;
+        height: 500px;
         margin-top: 2rem;
     }
+    #opening-page .texts h1 {
+        font-size: 100px;
+    }
+    #opening-page .texts h2 {
+        font-size: 30px;
+    }
+    #about-me {
+        display: block;
+        margin-bottom: 3rem;
+    }
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .image-container2 {
+        margin-top: 5rem;
+    }
+    .image-container2 img {
+        width: 400px;
+        margin-top: 15rem;
+        margin-left: 5rem;
+    }
+    .text-and-steplist {
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        margin-right: 23rem;
+        margin-bottom: 12rem;
+        margin-top: -3rem;
+    }
+    .icons {
+        font-size: 40px;
+    }
+    .steplist {
+        font-size: 14px;
+        margin-right: 3rem;
+        margin-left: 1rem;
+    }
+    .about-me-texts {
+        font-size: 12px;
+    }
+    .binus {
+        bottom: 10px;
+    }
+    .hobby-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .contact-container {
+        margin-right: 2rem;
+        display: block;
+    }
+    .contact-left input {
+        width: 80%;
+    }
+    .contact-left textarea {
+        width: 80%;
+    }
+    .contact-right {
+        display: none;
+    }
+}
 
-    .hamburg {
-        margin-left: auto; 
-        margin-top: 1rem;
+@media (min-width: 760px) and (max-width: 1000px){
+    #nav-bar {
+        display: none;
+    }
+    #responsive {
+        display: flex;
+    }
+    #responsive .logo {
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+    }
+    #responsive .hamburg {
+        margin-right: 1rem;
+    }
+    section {
+        margin: 0 5%;
+        height: fit-content;
+    }
+    #opening-page img {
+        display: none;
+    }
+    #opening-page {
+        display: block;
+        width: 500px;
+        height: 500px;
+        margin-top: 2rem;
+    }
+    #opening-page .texts h1 {
+        font-size: 100px;
+    }
+    #opening-page .texts h2 {
+        font-size: 30px;
+    }
+    #about-me {
+        display: block;
+        margin-bottom: 3rem;
+    }
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .image-container2 {
+        margin-top: 5rem;
+    }
+    .aboutme h1 {
+        margin-bottom: 7rem;
+    }
+    .image-container2 img {
+        width: 400px;
+        margin-top: 15rem;
+        margin-left: 5rem;
+    }
+    .text-and-steplist {
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        margin-right: 23rem;
+        margin-bottom: 12rem;
+        margin-top: -3rem;
+    }
+    .icons {
+        font-size: 40px;
+    }
+    .steplist {
+        font-size: 14px;
+        margin-right: 3rem;
+        margin-left: 1rem;
+    }
+    .about-me-texts {
+        font-size: 12px;
+    }
+    .binus {
+        bottom: 10px;
+    }
+    .myhobbies h1 {
+        margin-top: 10rem;
+    }
+    .hobby-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .contact-container {
+        margin-right: 2rem;
+        display: block;
+    }
+    .contact-left input {
+        width: 80%;
+    }
+    .contact-left textarea {
+        width: 80%;
+    }
+    .contact-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #nav-bar {
+        display: none;
+    }
+    #responsive {
+        display: flex;
+    }
+    #responsive .logo {
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+    }
+    #responsive .hamburg {
+        margin-right: 1rem;
+    }
+    section {
+        margin: 0;
+        height: fit-content;
+    }
+    #opening-page img {
+        display: none;
+    }
+    #opening-page {
+        display: block;
+        width: 500px;
+        height: 500px;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    #opening-page .texts h1 {
+        font-size: 100px;
+    }
+    #opening-page .texts h2 {
+        font-size: 24px;
+    }
+    #about-me {
+        display: block;
+        margin-bottom: 3rem;
+    }
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutme h1 {
+        font-size: 50px;
+        margin-bottom: 1rem;
+    }
+    .image-container2 {
+        margin-top: 5rem;
+    }
+    .image-container2 img {
+        width: 400px;
+        margin-top: 15rem;
+        margin-left: 5rem;
+    }
+    .text-and-steplist {
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        margin-right: 23rem;
+        margin-bottom: 12rem;
+        margin-top: -3rem;
+    }
+    .right-side {
+        padding: 1rem;
+        margin-left: 1.5rem;
+    }
+    .icons {
+        font-size: 40px;
+    }
+    .steplist {
+        font-size: 14px;
+        margin-right: 3rem;
+        margin-left: 1rem;
+    }
+    .about-me-texts {
+        font-size: 12px;
+    }
+    .binus {
+        bottom: 10px;
+    }
+    .myhobbies h1{
+        font-size: 50px;
+        margin-top: 3rem;
+    }
+    .hobby-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .contact-container {
+        margin-right: 2rem;
+        display: block;
+    }
+    .contact-left-title {
+        margin-left: 2rem;
+    }
+    .contact-left input {
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .contact-left textarea {
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .contact-left button {
+        margin-left: 1rem;
+    }
+    .contact-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #nav-bar {
+        display: none;
+    }
+    #responsive {
+        display: flex;
+    }
+    #responsive .logo {
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+    }
+    #responsive .hamburg {
+        margin-right: 1rem;
+    }
+    section {
+        margin: 0;
+        height: fit-content;
+    }
+    #opening-page img {
+        display: none;
+    }
+    #opening-page {
+        display: block;
+        width: 500px;
+        height: 500px;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    #opening-page .texts h1 {
+        font-size: 100px;
+    }
+    #opening-page .texts h2 {
+        font-size: 24px;
+    }
+    #about-me {
+        display: block;
+        margin-bottom: 3rem;
+    }
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutme h1 {
+        font-size: 50px;
+        margin-bottom: 5rem;
+    }
+    .image-container2 {
+        margin-top: 5rem;
+    }
+    .image-container2 img {
+        width: 400px;
+        margin-top: 15rem;
+        margin-left: 5rem;
+    }
+    .text-and-steplist {
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        margin-right: 23rem;
+        margin-bottom: 12rem;
+        margin-top: -3rem;
+    }
+    .right-side {
+        padding: 1rem;
+        margin-left: 1.5rem;
+    }
+    .icons {
+        font-size: 40px;
+    }
+    .steplist {
+        font-size: 14px;
+        margin-right: 3rem;
+        margin-left: 1rem;
+    }
+    .about-me-texts {
+        font-size: 12px;
+    }
+    .binus {
+        bottom: 10px;
+    }
+    .myhobbies h1{
+        font-size: 50px;
+        margin-top: 10rem;
+    }
+    .hobby-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .contact-container {
+        margin-right: 2rem;
+        display: block;
+    }
+    .contact-left-title {
+        margin-left: 2rem;
+    }
+    .contact-left input {
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .contact-left textarea {
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .contact-left button {
+        margin-left: 1rem;
+    }
+    .contact-right {
+        display: none;
     }
 }
