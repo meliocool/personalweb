@@ -127,13 +127,14 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    z-index: 1;
 }
 
 .links a {
     display: block;
     padding: 10px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgba(74,74,236,1);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
